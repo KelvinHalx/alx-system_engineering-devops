@@ -3,9 +3,7 @@
 ## 0. Knowing Exactly Path
 Write a script that prints the absolute path name of the current working directory.
 
-
 ```bash
-realpath ./0-current_working_directory
 pwd
 ```
 
@@ -48,4 +46,10 @@ mkdir /tmp/my_first_directory/
 Move the file betty from /tmp/ to /tmp/my_first_directory.
 ```bash
 mv /temp/betty /temp/my_first_directory/betty
+```
+## 8. Bye bye Betty
+Delete the file betty.
+The file betty is in /tmp/my_first_directory
+```bash
+rm /tmp/my_first_directory/betty
 ```

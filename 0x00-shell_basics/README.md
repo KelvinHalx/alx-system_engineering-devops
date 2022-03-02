@@ -18,3 +18,7 @@ cd ~
 ```bash
 ls -l
 ```
+## 4. Hidden files
+```bash
+
+```

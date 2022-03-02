@@ -14,3 +14,7 @@ ls
 ```bash
 cd ~
 ```
+## 3. The long format
+```bash
+ls -l
+```

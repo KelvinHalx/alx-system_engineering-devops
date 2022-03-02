@@ -59,3 +59,9 @@ Delete the directory my_first_directory that is in the /tmp directory.
 ```bash
 rmdir /tmp directory/my_first_directory
 ```
+## 10. Back to the future
+mandatory
+Write a script that changes the working directory to the previous one.
+```bash
+cd ..
+```

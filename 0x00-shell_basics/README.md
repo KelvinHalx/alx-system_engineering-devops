@@ -1,28 +1,46 @@
 # About Bash projects
 
 ## 0. Knowing Exactly Path
+Write a script that prints the absolute path name of the current working directory.
+
+
 ```bash
 realpath ./0-current_working_directory
 pwd
 ```
 
 ## 1. What’s in there?
+Display the contents list of your current directory.
 ```bash
 ls
 ```
 ## 2. There is no place like home
+Write a script that changes the working directory to the user’s home directory.
+
+You are not allowed to use any shell variables
 ```bash
 cd ~
 ```
 ## 3. The long format
+Display current directory contents in a long format
 ```bash
 ls -l
 ```
 ## 4. Hidden files
+Display current directory contents, including hidden files (starting with .). Use the long format.
 ```bash
 ls -al
 ```
 ## 5. I love numbers
+Display current directory contents.
+    -Long format
+    -with user and group IDs displayed numerically
+    -And hidden files (starting with .)
 ```bash
-
+ls -lna
+```
+## 6. Welcome
+Create a script that creates a directory named my_first_directory in the /tmp/ directory.
+```bash
+mkdir ./tmp/my_first_directory/
 ```

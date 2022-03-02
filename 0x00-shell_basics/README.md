@@ -76,3 +76,9 @@ Write a script that prints the type of the file named iamafile. The file iamafil
 ```bash
 file /temp/iamafile
 ```
+## 13. We are symbols, and inhabit symbols
+mandatory
+Create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+```bash
+ln -s /bin/ls __ls__
+```

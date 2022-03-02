@@ -20,5 +20,9 @@ ls -l
 ```
 ## 4. Hidden files
 ```bash
+ls -al
+```
+## 5. I love numbers
+```bash
 
 ```

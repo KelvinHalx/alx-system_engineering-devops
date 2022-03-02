@@ -53,3 +53,9 @@ The file betty is in /tmp/my_first_directory
 ```bash
 rm /tmp/my_first_directory/betty
 ```
+## 9. Bye bye My first directory
+mandatory
+Delete the directory my_first_directory that is in the /tmp directory.
+```bash
+rmdir /tmp directory/my_first_directory
+```
